@@ -6,9 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Receba</p>
-    <p>Luva of Pedreiro</p>
-    <a href="https://www.youtube.com/">Clique aqui</a>
+    <?php echo "hello world!";?>
+    <?php phpinfo();?>
     
     
 </body>
