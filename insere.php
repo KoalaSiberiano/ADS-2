@@ -2,7 +2,7 @@
     ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 
     //verifica se existe conexão  com bd, caso não tenta criar uma nova
-    $conexao = mysqli_connect("localhost", "root", "root", "") //porta usuário, senha
+    $conexao = mysqli_connect("localhost", "daylton", "123456") //porta usuário, senha
     or die("Erro ao conectar com o banco de dados"); //caso não consiga conectar mostra a mensagem de erro mostrada na conexão
 
     $select_db = mysqli_select_db($conexao, "novo"); //seleciona o banco de dados
@@ -23,5 +23,5 @@
         echo "Erro, não foi possível inserir no banco de dados";
 
         mysqli_close($conexao); //fecha a conexão com o banco de dados
-
+    }
 ?>
