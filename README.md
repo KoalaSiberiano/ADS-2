@@ -3,4 +3,4 @@
 iniciar server: 
 
 sudo service mariadb start
-php -S localhost:8000
+php8.3 -S localhost:8000

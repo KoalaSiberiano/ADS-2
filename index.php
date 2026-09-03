@@ -9,14 +9,15 @@
     
     <h3>Formulário de Cadastro</h3>
     <form action="insere.php" method="post">
-        <label for="nome">Nome: </label>
+        <label for="nome">Nome: </label> 
         <input type="text" name="nome" />
         <br/>
-        <label for="user">User: </label>
+        <label for="user">User: </label>&nbsp;
         <input type="text" name="user" />
         <br/>
         <label for="email">Email: </label>
         <input type="email" name="email" />
+        <br/> 
         <br/>
         <input type="submit" vlaue="Cadastrar" />
     </form>
